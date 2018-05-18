@@ -9,7 +9,7 @@
 		<div class="col-lg-6">
 			<div class="form-group">
 				<label for="exampleInputEmail1">Email address</label>
-				<?php echo form_input(['name'=>'username', 'id'=>'exampleInputEmail1', 'class'=>'form-control', 'placeholder'=>'username']);?>
+				<?php echo form_input(['name'=>'username', 'id'=>'exampleInputEmail1', 'class'=>'form-control', 'placeholder'=>'username', 'value'=>set_value('username')]);?>
 			</div>
 		</div>
 		<div class="col-lg-6">
